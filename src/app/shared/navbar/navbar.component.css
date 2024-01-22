@@ -1,0 +1,31 @@
+nav{
+
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-nav{
+  width: 30%;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+
+img{
+  width: 35%;
+}
+
+.options-nav{
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.list-nav{
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  gap: 7%;
+}

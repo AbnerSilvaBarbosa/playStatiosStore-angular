@@ -1,0 +1,9 @@
+<div class="cards-games">
+  <app-card
+    *ngFor="let c of cards"
+    [consoles]="c.consoles"
+    [imageUrl]="c.imageURL"
+    [isExclusive]="c.isExclusive"
+    [priceGame]="c.priceGame"
+  ></app-card>
+</div>

@@ -1,0 +1,10 @@
+.cards-games{
+  margin-top: 3%;
+
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4%;
+
+}

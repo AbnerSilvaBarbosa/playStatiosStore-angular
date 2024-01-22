@@ -1,0 +1,25 @@
+<div class="card">
+  <div class="img-card">
+    <img src="{{ imageUrl }}" alt="battlefield 1" />
+  </div>
+
+  <div class="tags-card" *ngIf="isExclusive">
+    <p>Exclusivo</p>
+  </div>
+
+  <div class="info-game-card">
+    <div class="left-side-price-card">
+      <h2>Play It Now!</h2>
+      <div class="info-buy-card">
+        <p>Full Game</p>
+        <div class="consoles-card">
+          <p *ngFor="let c of consoles">{{ c }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-side-price-card">
+      <div class="price-game-card">${{ priceGame }}</div>
+    </div>
+  </div>
+</div>
