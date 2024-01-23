@@ -15,37 +15,37 @@ type TCard = {
 export class HomeComponent implements OnInit {
   public cards: TCard[] = [
     {
-      imageURL: '../../assets/ac-cover.jpg',
+      imageURL: 'assets/ac-cover.jpg',
       consoles: ['PS4', 'PS3'],
       isExclusive: false,
       priceGame: '55.99',
     },
     {
-      imageURL: '../../assets/bt-1.jpg',
+      imageURL: 'assets/bt-1.jpg',
       consoles: ['PS4', 'PS3'],
       isExclusive: true,
       priceGame: '55.99',
     },
     {
-      imageURL: '../../assets/bt-4.jpg',
+      imageURL: 'assets/bt-4.jpg',
       consoles: ['PS4', 'PS3'],
       isExclusive: false,
       priceGame: '55.99',
     },
     {
-      imageURL: '../../assets/bt-5.jpg',
+      imageURL: 'assets/bt-5.jpg',
       consoles: ['PS4', 'PS3'],
       isExclusive: true,
       priceGame: '55.99',
     },
     {
-      imageURL: '../../assets/bt-bad-company-2.jpg',
+      imageURL: 'assets/bt-bad-company-2.jpg',
       consoles: ['PS4', 'PS3'],
       isExclusive: false,
       priceGame: '55.99',
     },
     {
-      imageURL: '../../assets/bt-hardline.jpg',
+      imageURL: 'assets/bt-hardline.jpg',
       consoles: ['PS4', 'PS3'],
       isExclusive: true,
       priceGame: '55.99',
